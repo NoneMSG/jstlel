@@ -7,5 +7,12 @@
 </head>
 <body>
 	<h3>요청 파라미터</h3>
+	<!-- param 키워드를 사용해서 get방식 데이터를 받아옴 -->
+	${ param.no}
+	<br>
+	${param.no * 1000 +10 }
+	<br>
+	${param.email }
+	<br>
 </body>
 </html>
